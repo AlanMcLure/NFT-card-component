@@ -1,0 +1,82 @@
+/* 
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+*/
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    margin: 4em auto;
+    padding: 1.5em;
+    width: 400px;
+    height: 620px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0 15px 16px 30px hsl(216, 50%, 8%, 0.5);
+}
+
+.card__image--main {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__title {
+    color:hsl(0, 0%, 100%);
+}
+
+.card__text {
+    color: hsl(215, 51%, 70%);
+}
+
+.card__text--cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+span,
+.card__image--ethereum,
+.card__image--clock,
+.card__image--avatar {
+    vertical-align: middle;
+}
+
+span {
+    margin-left: 1em;
+}
+
+.card__image--avatar {
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%)
+}
+
+.card__footer {
+    border-top: 0.1px solid hsl(215, 51%, 70%);
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.attribution { 
+    font-size: 18px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%)
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%)
+}
